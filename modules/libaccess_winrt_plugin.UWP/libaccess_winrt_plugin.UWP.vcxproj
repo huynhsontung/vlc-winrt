@@ -239,7 +239,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-        <AdditionalIncludeDirectories>$(ProjectDir)..\..\libvlc\Universal\vlc-$(TargetedSDKArchitecture)\$(Configuration)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+        <AdditionalIncludeDirectories>$(ProjectDir)..\..\libvlc\Universal\vlc-$(Platform)\$(Configuration)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
